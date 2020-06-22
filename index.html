@@ -6,9 +6,14 @@
   <title>Ball mover</title>
   <link href="style.css" type="text/css" rel="stylesheet"/>
 </head>
-<body>
+<body onload="startGame()">
   <h1>This is my ball game</h1>
 
+  
+<canvas id="myCanvas" width="600" height="350" style="border:1px solid #000000; background-color: skyblue;"></canvas>
+<!-- creates a canvas and gives it a size, border, and background color. this can be done in css -->
+
+<canvas id="canvas"></canvas>
   <script src="app.js"></script>
 </body>
 </html>
